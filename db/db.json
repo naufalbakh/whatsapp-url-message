@@ -1,0 +1,1154 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "nameCountry": "Afganistan",
+            "phoneCountry": "93"
+        },
+        {
+            "id": 2,
+            "nameCountry": "Afrika Selatan",
+            "phoneCountry": "27"
+        },
+        {
+            "id": 3,
+            "nameCountry": "Amerika Serikat",
+            "phoneCountry": "1"
+        },
+        {
+            "id": 4,
+            "nameCountry": "Angola",
+            "phoneCountry": "244"
+        },
+        {
+            "id": 5,
+            "nameCountry": "Afrika Tengah",
+            "phoneCountry": "236"
+        },
+        {
+            "id": 6,
+            "nameCountry": "Algeria (Aljazair)",
+            "phoneCountry": "213"
+        },
+        {
+            "id": 7,
+            "nameCountry": "Albania",
+            "phoneCountry": "355"
+        },
+        {
+            "id": 8,
+            "nameCountry": "Antillen Belanda",
+            "phoneCountry": "599"
+        },
+        {
+            "id": 9,
+            "nameCountry": "Arab Saudi",
+            "phoneCountry": "966"
+        },
+        {
+            "id": 10,
+            "nameCountry": "Armenia",
+            "phoneCountry": "374"
+        },
+        {
+            "id": 11,
+            "nameCountry": "Andorra",
+            "phoneCountry": "376"
+        },
+        {
+            "id": 12,
+            "nameCountry": "Australia",
+            "phoneCountry": "61"
+        },
+        {
+            "id": 13,
+            "nameCountry": "Antigua",
+            "phoneCountry": "1 268"
+        },
+        {
+            "id": 14,
+            "nameCountry": "Argentina",
+            "phoneCountry": "54"
+        },
+        {
+            "id": 15,
+            "nameCountry": "Anguila",
+            "phoneCountry": "1 264"
+        },
+        {
+            "id": 16,
+            "nameCountry": "Azerbaijan",
+            "phoneCountry": "994"
+        },
+        {
+            "id": 17,
+            "nameCountry": "Austria",
+            "phoneCountry": "43"
+        },
+        {
+            "id": 18,
+            "nameCountry": "Aruba",
+            "phoneCountry": "297"
+        },
+        {
+            "id": 19,
+            "nameCountry": "Bahama",
+            "phoneCountry": "1 242"
+        },
+        {
+            "id": 20,
+            "nameCountry": "Barbados",
+            "phoneCountry": "1 246"
+        },
+        {
+            "id": 21,
+            "nameCountry": "Bahrain",
+            "phoneCountry": "973"
+        },
+        {
+            "id": 22,
+            "nameCountry": "Barbuda",
+            "phoneCountry": "1 268"
+        },
+        {
+            "id": 23,
+            "nameCountry": "Bangladesh",
+            "phoneCountry": "880"
+        },
+        {
+            "id": 24,
+            "nameCountry": "Belanda",
+            "phoneCountry": "31"
+        },
+        {
+            "id": 25,
+            "nameCountry": "Belgia",
+            "phoneCountry": "32"
+        },
+        {
+            "id": 26,
+            "nameCountry": "Belarus",
+            "phoneCountry": "375"
+        },
+        {
+            "id": 27,
+            "nameCountry": "Benin",
+            "phoneCountry": "229"
+        },
+        {
+            "id": 28,
+            "nameCountry": "Belize",
+            "phoneCountry": "501"
+        },
+        {
+            "id": 29,
+            "nameCountry": "Bhutan",
+            "phoneCountry": "975"
+        },
+        {
+            "id": 30,
+            "nameCountry": "Bermuda",
+            "phoneCountry": "1 441"
+        },
+        {
+            "id": 31,
+            "nameCountry": "Bolivia",
+            "phoneCountry": "591"
+        },
+        {
+            "id": 32,
+            "nameCountry": "Bosnia dan Herzegovina",
+            "phoneCountry": "387"
+        },
+        {
+            "id": 33,
+            "nameCountry": "Burundi",
+            "phoneCountry": "257"
+        },
+        {
+            "id": 34,
+            "nameCountry": "Botswana",
+            "phoneCountry": "267"
+        },
+        {
+            "id": 35,
+            "nameCountry": "Brunei Darussalam",
+            "phoneCountry": "673"
+        },
+        {
+            "id": 36,
+            "nameCountry": "Brasil",
+            "phoneCountry": "55"
+        },
+        {
+            "id": 37,
+            "nameCountry": "Burkina Faso",
+            "phoneCountry": "226"
+        },
+        {
+            "id": 38,
+            "nameCountry": "Bulgaria",
+            "phoneCountry": "359"
+        },
+        {
+            "id": 39,
+            "nameCountry": "Cina Makau",
+            "phoneCountry": "853"
+        },
+        {
+            "id": 40,
+            "nameCountry": "Cina",
+            "phoneCountry": "86"
+        },
+        {
+            "id": 41,
+            "nameCountry": "Chili",
+            "phoneCountry": "56"
+        },
+        {
+            "id": 42,
+            "nameCountry": "Chad",
+            "phoneCountry": "235"
+        },
+        {
+            "id": 43,
+            "nameCountry": "Ceko",
+            "phoneCountry": "420"
+        },
+        {
+            "id": 44,
+            "nameCountry": "Cape Verde",
+            "phoneCountry": "238"
+        },
+        {
+            "id": 45,
+            "nameCountry": "Domikia",
+            "phoneCountry": "1 767"
+        },
+        {
+            "id": 46,
+            "nameCountry": "Djibouti",
+            "phoneCountry": "253"
+        },
+        {
+            "id": 47,
+            "nameCountry": "Denmark",
+            "phoneCountry": "45"
+        },
+        {
+            "id": 48,
+            "nameCountry": "Ethiopia",
+            "phoneCountry": "251"
+        },
+        {
+            "id": 49,
+            "nameCountry": "Estonia",
+            "phoneCountry": "372"
+        },
+        {
+            "id": 50,
+            "nameCountry": "Eritrea",
+            "phoneCountry": "291"
+        },
+        {
+            "id": 51,
+            "nameCountry": "El Salvador",
+            "phoneCountry": "503"
+        },
+        {
+            "id": 52,
+            "nameCountry": "Ekuador",
+            "phoneCountry": "593"
+        },
+        {
+            "id": 53,
+            "nameCountry": "Finlandia",
+            "phoneCountry": "358"
+        },
+        {
+            "id": 54,
+            "nameCountry": "Filipina",
+            "phoneCountry": "63"
+        },
+        {
+            "id": 55,
+            "nameCountry": "Fiji",
+            "phoneCountry": "679"
+        },
+        {
+            "id": 56,
+            "nameCountry": "Guyana",
+            "phoneCountry": "592"
+        },
+        {
+            "id": 57,
+            "nameCountry": "Guinea Ekuator",
+            "phoneCountry": "240"
+        },
+        {
+            "id": 58,
+            "nameCountry": "Guinea Bissau",
+            "phoneCountry": "245"
+        },
+        {
+            "id": 59,
+            "nameCountry": "Guinea",
+            "phoneCountry": "224"
+        },
+        {
+            "id": 60,
+            "nameCountry": "Guatemala",
+            "phoneCountry": "502"
+        },
+        {
+            "id": 61,
+            "nameCountry": "Guam",
+            "phoneCountry": "1 671"
+        },
+        {
+            "id": 62,
+            "nameCountry": "Grenada",
+            "phoneCountry": "1 473"
+        },
+        {
+            "id": 63,
+            "nameCountry": "Greenland",
+            "phoneCountry": "299"
+        },
+        {
+            "id": 64,
+            "nameCountry": "Gibraltar",
+            "phoneCountry": "350"
+        },
+        {
+            "id": 65,
+            "nameCountry": "Ghana",
+            "phoneCountry": "233"
+        },
+        {
+            "id": 66,
+            "nameCountry": "Georgia",
+            "phoneCountry": "995"
+        },
+        {
+            "id": 67,
+            "nameCountry": "Gambia",
+            "phoneCountry": "220"
+        },
+        {
+            "id": 68,
+            "nameCountry": "Gabon",
+            "phoneCountry": "241"
+        },
+        {
+            "id": 69,
+            "nameCountry": "Hongkong",
+            "phoneCountry": "852"
+        },
+        {
+            "id": 70,
+            "nameCountry": "Hongaria",
+            "phoneCountry": "36"
+        },
+        {
+            "id": 71,
+            "nameCountry": "Honduras",
+            "phoneCountry": "504"
+        },
+        {
+            "id": 72,
+            "nameCountry": "Haiti",
+            "phoneCountry": "509"
+        },
+        {
+            "id": 73,
+            "nameCountry": "Jersey",
+            "phoneCountry": "44 1534"
+        },
+        {
+            "id": 74,
+            "nameCountry": "Jerman",
+            "phoneCountry": "49"
+        },
+        {
+            "id": 75,
+            "nameCountry": "Jepang",
+            "phoneCountry": "81"
+        },
+        {
+            "id": 76,
+            "nameCountry": "Jamaika",
+            "phoneCountry": "1 876"
+        },
+        {
+            "id": 77,
+            "nameCountry": "Italia",
+            "phoneCountry": "39"
+        },
+        {
+            "id": 78,
+            "nameCountry": "Israel",
+            "phoneCountry": "972"
+        },
+        {
+            "id": 79,
+            "nameCountry": "Islandia",
+            "phoneCountry": "354"
+        },
+        {
+            "id": 80,
+            "nameCountry": "Irlandia",
+            "phoneCountry": "353"
+        },
+        {
+            "id": 81,
+            "nameCountry": "Iran",
+            "phoneCountry": "98"
+        },
+        {
+            "id": 82,
+            "nameCountry": "Irak",
+            "phoneCountry": "964"
+        },
+        {
+            "id": 83,
+            "nameCountry": "Inggris (Britania Raya)",
+            "phoneCountry": "44"
+        },
+        {
+            "id": 84,
+            "nameCountry": "Indonesia",
+            "phoneCountry": "62"
+        },
+        {
+            "id": 85,
+            "nameCountry": "India",
+            "phoneCountry": "91"
+        },
+        {
+            "id": 86,
+            "nameCountry": "Kuwait",
+            "phoneCountry": "965"
+        },
+        {
+            "id": 87,
+            "nameCountry": "Kurakao",
+            "phoneCountry": "599"
+        },
+        {
+            "id": 88,
+            "nameCountry": "Kuba",
+            "phoneCountry": "53"
+        },
+        {
+            "id": 89,
+            "nameCountry": "Kroasia",
+            "phoneCountry": "385"
+        },
+        {
+            "id": 90,
+            "nameCountry": "Kosta Rika",
+            "phoneCountry": "506"
+        },
+        {
+            "id": 91,
+            "nameCountry": "Korea Utara",
+            "phoneCountry": "850"
+        },
+        {
+            "id": 92,
+            "nameCountry": "Korea Selatan",
+            "phoneCountry": "82"
+        },
+        {
+            "id": 93,
+            "nameCountry": "Komoros",
+            "phoneCountry": "682"
+        },
+        {
+            "id": 94,
+            "nameCountry": "Kolombia",
+            "phoneCountry": "57"
+        },
+        {
+            "id": 95,
+            "nameCountry": "Kiribati",
+            "phoneCountry": "686"
+        },
+        {
+            "id": 96,
+            "nameCountry": "Kirgizstan",
+            "phoneCountry": "996"
+        },
+        {
+            "id": 97,
+            "nameCountry": "Kepulauan Turks dan Caicos",
+            "phoneCountry": "1 649"
+        },
+        {
+            "id": 98,
+            "nameCountry": "Kepulauan Marshall",
+            "phoneCountry": "692"
+        },
+        {
+            "id": 99,
+            "nameCountry": "Kenya",
+            "phoneCountry": "254"
+        },
+        {
+            "id": 100,
+            "nameCountry": "Kazakhstan",
+            "phoneCountry": "7"
+        },
+        {
+            "id": 101,
+            "nameCountry": "Kanada",
+            "phoneCountry": "1"
+        },
+        {
+            "id": 102,
+            "nameCountry": "Kamerun",
+            "phoneCountry": "237"
+        },
+        {
+            "id": 103,
+            "nameCountry": "Kamboja",
+            "phoneCountry": "855"
+        },
+        {
+            "id": 104,
+            "nameCountry": "Luksemburg",
+            "phoneCountry": "352"
+        },
+        {
+            "id": 105,
+            "nameCountry": "Lituania",
+            "phoneCountry": "370"
+        },
+        {
+            "id": 106,
+            "nameCountry": "Liechtenstein",
+            "phoneCountry": "423"
+        },
+        {
+            "id": 107,
+            "nameCountry": "Libya",
+            "phoneCountry": "218"
+        },
+        {
+            "id": 108,
+            "nameCountry": "Liberia",
+            "phoneCountry": "231"
+        },
+        {
+            "id": 109,
+            "nameCountry": "Lesotho",
+            "phoneCountry": "266"
+        },
+        {
+            "id": 110,
+            "nameCountry": "Lebanon",
+            "phoneCountry": "961"
+        },
+        {
+            "id": 111,
+            "nameCountry": "Latvia",
+            "phoneCountry": "371"
+        },
+        {
+            "id": 112,
+            "nameCountry": "Laos",
+            "phoneCountry": "856"
+        },
+        {
+            "id": 113,
+            "nameCountry": "Myanmar",
+            "phoneCountry": "95"
+        },
+        {
+            "id": 114,
+            "nameCountry": "Mozambik",
+            "phoneCountry": "258"
+        },
+        {
+            "id": 115,
+            "nameCountry": "Montenegro",
+            "phoneCountry": "382"
+        },
+        {
+            "id": 116,
+            "nameCountry": "Mongolia",
+            "phoneCountry": "976"
+        },
+        {
+            "id": 117,
+            "nameCountry": "Monako",
+            "phoneCountry": "377"
+        },
+        {
+            "id": 118,
+            "nameCountry": "Moldova",
+            "phoneCountry": "373"
+        },
+        {
+            "id": 119,
+            "nameCountry": "Mikronesia",
+            "phoneCountry": "691"
+        },
+        {
+            "id": 120,
+            "nameCountry": "Mesir",
+            "phoneCountry": "20"
+        },
+        {
+            "id": 121,
+            "nameCountry": "Meksiko",
+            "phoneCountry": "52"
+        },
+        {
+            "id": 122,
+            "nameCountry": "Mayotte",
+            "phoneCountry": "262"
+        },
+        {
+            "id": 123,
+            "nameCountry": "Mauritius",
+            "phoneCountry": "230"
+        },
+        {
+            "id": 124,
+            "nameCountry": "Mauritania",
+            "phoneCountry": "222"
+        },
+        {
+            "id": 125,
+            "nameCountry": "Maroko",
+            "phoneCountry": "212"
+        },
+        {
+            "id": 126,
+            "nameCountry": "Malta",
+            "phoneCountry": "356"
+        },
+        {
+            "id": 127,
+            "nameCountry": "Mali",
+            "phoneCountry": "223"
+        },
+        {
+            "id": 128,
+            "nameCountry": "Malaysia",
+            "phoneCountry": "60"
+        },
+        {
+            "id": 129,
+            "nameCountry": "Malawi",
+            "phoneCountry": "265"
+        },
+        {
+            "id": 130,
+            "nameCountry": "Maladewa",
+            "phoneCountry": "960"
+        },
+        {
+            "id": 131,
+            "nameCountry": "Makedonia",
+            "phoneCountry": "389"
+        },
+        {
+            "id": 132,
+            "nameCountry": "Madagaskar",
+            "phoneCountry": "261"
+        },
+        {
+            "id": 133,
+            "nameCountry": "Norwegia",
+            "phoneCountry": "47"
+        },
+        {
+            "id": 134,
+            "nameCountry": "Niue",
+            "phoneCountry": "683"
+        },
+        {
+            "id": 135,
+            "nameCountry": "Nikaragua",
+            "phoneCountry": "505"
+        },
+        {
+            "id": 136,
+            "nameCountry": "Nigeria",
+            "phoneCountry": "234"
+        },
+        {
+            "id": 137,
+            "nameCountry": "Niger",
+            "phoneCountry": "227"
+        },
+        {
+            "id": 138,
+            "nameCountry": "Nepal",
+            "phoneCountry": "977"
+        },
+        {
+            "id": 139,
+            "nameCountry": "Nauru",
+            "phoneCountry": "674"
+        },
+        {
+            "id": 140,
+            "nameCountry": "Namibia",
+            "phoneCountry": "264"
+        },
+        {
+            "id": 141,
+            "nameCountry": "Oman",
+            "phoneCountry": "968"
+        },
+        {
+            "id": 142,
+            "nameCountry": "Pulau Virgin",
+            "phoneCountry": "1 340"
+        },
+        {
+            "id": 143,
+            "nameCountry": "Pulau Solomon",
+            "phoneCountry": "677"
+        },
+        {
+            "id": 144,
+            "nameCountry": "Pulau Reuni",
+            "phoneCountry": "262"
+        },
+        {
+            "id": 145,
+            "nameCountry": "Pulau Mariana Utara",
+            "phoneCountry": "1 670"
+        },
+        {
+            "id": 146,
+            "nameCountry": "Pulau Man",
+            "phoneCountry": "44 1624"
+        },
+        {
+            "id": 147,
+            "nameCountry": "Pulau Faroe",
+            "phoneCountry": "298"
+        },
+        {
+            "id": 148,
+            "nameCountry": "Pulau Falkland",
+            "phoneCountry": "500"
+        },
+        {
+            "id": 149,
+            "nameCountry": "Pulau Cook",
+            "phoneCountry": "682"
+        },
+        {
+            "id": 150,
+            "nameCountry": "Pulau Cocos",
+            "phoneCountry": "61"
+        },
+        {
+            "id": 151,
+            "nameCountry": "Puerto Riko",
+            "phoneCountry": "1 787"
+        },
+        {
+            "id": 152,
+            "nameCountry": "Portugal",
+            "phoneCountry": "351"
+        },
+        {
+            "id": 153,
+            "nameCountry": "Polandia",
+            "phoneCountry": "48"
+        },
+        {
+            "id": 154,
+            "nameCountry": "Pitcairn",
+            "phoneCountry": "64"
+        },
+        {
+            "id": 155,
+            "nameCountry": "Peru",
+            "phoneCountry": "51"
+        },
+        {
+            "id": 156,
+            "nameCountry": "Perancis Polinesia",
+            "phoneCountry": "689"
+        },
+        {
+            "id": 157,
+            "nameCountry": "Perancis",
+            "phoneCountry": "33"
+        },
+        {
+            "id": 158,
+            "nameCountry": "Paraguay",
+            "phoneCountry": "595"
+        },
+        {
+            "id": 159,
+            "nameCountry": "Papua Nugini",
+            "phoneCountry": "675"
+        },
+        {
+            "id": 160,
+            "nameCountry": "Pantai Gading",
+            "phoneCountry": "225"
+        },
+        {
+            "id": 161,
+            "nameCountry": "Panama",
+            "phoneCountry": "507"
+        },
+        {
+            "id": 162,
+            "nameCountry": "Palestina",
+            "phoneCountry": "970"
+        },
+        {
+            "id": 163,
+            "nameCountry": "Palau",
+            "phoneCountry": "680"
+        },
+        {
+            "id": 164,
+            "nameCountry": "Pakistan",
+            "phoneCountry": "92"
+        },
+        {
+            "id": 165,
+            "nameCountry": "Qatar",
+            "phoneCountry": "974"
+        },
+        {
+            "id": 166,
+            "nameCountry": " Republik Ceko",
+            "phoneCountry": "420"
+        },
+        {
+            "id": 167,
+            "nameCountry": "Republik Demokrasi Kongo",
+            "phoneCountry": "243"
+        },
+        {
+            "id": 168,
+            "nameCountry": "Republik Dominika",
+            "phoneCountry": "1 809"
+        },
+        {
+            "id": 169,
+            "nameCountry": "Rumania",
+            "phoneCountry": "40"
+        },
+        {
+            "id": 170,
+            "nameCountry": "Rusia",
+            "phoneCountry": "7"
+        },
+        {
+            "id": 171,
+            "nameCountry": "Rwanda",
+            "phoneCountry": "250"
+        },
+        {
+            "id": 172,
+            "nameCountry": "Qatar",
+            "phoneCountry": "974"
+        },
+        {
+            "id": 173,
+            "nameCountry": "Swiss",
+            "phoneCountry": "41"
+        },
+        {
+            "id": 174,
+            "nameCountry": "Swedia",
+            "phoneCountry": "46"
+        },
+        {
+            "id": 175,
+            "nameCountry": "Swaziland",
+            "phoneCountry": "268"
+        },
+        {
+            "id": 176,
+            "nameCountry": "Svalbard dan Jan Mayen",
+            "phoneCountry": "47"
+        },
+        {
+            "id": 177,
+            "nameCountry": "Suriname",
+            "phoneCountry": "597"
+        },
+        {
+            "id": 178,
+            "nameCountry": "Suriah",
+            "phoneCountry": "963"
+        },
+        {
+            "id": 179,
+            "nameCountry": "Sudan",
+            "phoneCountry": "249"
+        },
+        {
+            "id": 180,
+            "nameCountry": "Sudan",
+            "phoneCountry": "211"
+        },
+        {
+            "id": 181,
+            "nameCountry": "Sri Lanka",
+            "phoneCountry": "94"
+        },
+        {
+            "id": 182,
+            "nameCountry": "Spanyol",
+            "phoneCountry": "34"
+        },
+        {
+            "id": 183,
+            "nameCountry": "Somalia",
+            "phoneCountry": "252"
+        },
+        {
+            "id": 184,
+            "nameCountry": "Slowakia",
+            "phoneCountry": "421"
+        },
+        {
+            "id": 185,
+            "nameCountry": "Slovenia",
+            "phoneCountry": "386"
+        },
+        {
+            "id": 186,
+            "nameCountry": "Siprus",
+            "phoneCountry": "357"
+        },
+        {
+            "id": 187,
+            "nameCountry": "Singapura",
+            "phoneCountry": "65"
+        },
+        {
+            "id": 188,
+            "nameCountry": "Sierra Leone",
+            "phoneCountry": "232"
+        },
+        {
+            "id": 189,
+            "nameCountry": "Seychelles",
+            "phoneCountry": "248"
+        },
+        {
+            "id": 190,
+            "nameCountry": "Serbia",
+            "phoneCountry": "381"
+        },
+        {
+            "id": 191,
+            "nameCountry": "Senegal",
+            "phoneCountry": "221"
+        },
+        {
+            "id": 192,
+            "nameCountry": "Selandia Baru",
+            "phoneCountry": "64"
+        },
+        {
+            "id": 193,
+            "nameCountry": "Sao Tome dan Principe",
+            "phoneCountry": "239"
+        },
+        {
+            "id": 194,
+            "nameCountry": "Santo Vincent dan Grenadines",
+            "phoneCountry": "1 784"
+        },
+        {
+            "id": 195,
+            "nameCountry": "Santo Lucia",
+            "phoneCountry": "1 758"
+        },
+        {
+            "id": 196,
+            "nameCountry": "Santo Kitts dan Nevis",
+            "phoneCountry": "1 869"
+        },
+        {
+            "id": 197,
+            "nameCountry": "Santo Helena",
+            "phoneCountry": "290"
+        },
+        {
+            "id": 198,
+            "nameCountry": "Santo Barthelemy",
+            "phoneCountry": "590"
+        },
+        {
+            "id": 199,
+            "nameCountry": "San Marino",
+            "phoneCountry": "378"
+        },
+        {
+            "id": 200,
+            "nameCountry": "Samoa",
+            "phoneCountry": "685"
+        },
+        {
+            "id": 201,
+            "nameCountry": "Sahara Barat",
+            "phoneCountry": "212"
+        },
+        {
+            "id": 202,
+            "nameCountry": "Tuvalu",
+            "phoneCountry": "688"
+        },
+        {
+            "id": 203,
+            "nameCountry": "Turkmenistan",
+            "phoneCountry": "993"
+        },
+        {
+            "id": 204,
+            "nameCountry": "Turki",
+            "phoneCountry": "90"
+        },
+        {
+            "id": 205,
+            "nameCountry": "Tunisia",
+            "phoneCountry": "216"
+        },
+        {
+            "id": 206,
+            "nameCountry": "Trinidad dan Tobago",
+            "phoneCountry": "1 868"
+        },
+        {
+            "id": 207,
+            "nameCountry": "Tonga",
+            "phoneCountry": "676"
+        },
+        {
+            "id": 208,
+            "nameCountry": "Tokelau",
+            "phoneCountry": "690"
+        },
+        {
+            "id": 209,
+            "nameCountry": "Togo",
+            "phoneCountry": "228"
+        },
+        {
+            "id": 210,
+            "nameCountry": "Timor Leste",
+            "phoneCountry": "670"
+        },
+        {
+            "id": 211,
+            "nameCountry": "Thailand",
+            "phoneCountry": "66"
+        },
+        {
+            "id": 212,
+            "nameCountry": "Tanzania",
+            "phoneCountry": "255"
+        },
+        {
+            "id": 213,
+            "nameCountry": "Tanjung Verde",
+            "phoneCountry": "238"
+        },
+        {
+            "id": 214,
+            "nameCountry": "Tajikistan",
+            "phoneCountry": "992"
+        },
+        {
+            "id": 215,
+            "nameCountry": "Taiwan",
+            "phoneCountry": "886"
+        },
+        {
+            "id": 216,
+            "nameCountry": "Uzbekistan",
+            "phoneCountry": "998"
+        },
+        {
+            "id": 217,
+            "nameCountry": "Uruguay",
+            "phoneCountry": "598"
+        },
+        {
+            "id": 218,
+            "nameCountry": "Uni Emirat Arab",
+            "phoneCountry": "971"
+        },
+        {
+            "id": 219,
+            "nameCountry": "Ukraina",
+            "phoneCountry": "380"
+        },
+        {
+            "id": 220,
+            "nameCountry": "Uganda",
+            "phoneCountry": "256"
+        },
+        {
+            "id": 221,
+            "nameCountry": "Vietnam",
+            "phoneCountry": "84"
+        },
+        {
+            "id": 222,
+            "nameCountry": "Venezuela",
+            "phoneCountry": "58"
+        },
+        {
+            "id": 223,
+            "nameCountry": "Vatican",
+            "phoneCountry": "379"
+        },
+        {
+            "id": 224,
+            "nameCountry": "Vanuatu",
+            "phoneCountry": "678"
+        },
+        {
+            "id": 225,
+            "nameCountry": "Walls dan Futuna",
+            "phoneCountry": "681"
+        },
+        {
+            "id": 226,
+            "nameCountry": "Yunani",
+            "phoneCountry": "30"
+        },
+        {
+            "id": 227,
+            "nameCountry": "Yordania",
+            "phoneCountry": "962"
+        },
+        {
+            "id": 228,
+            "nameCountry": "Yaman",
+            "phoneCountry": "967"
+        },
+        {
+            "id": 229,
+            "nameCountry": "Zimbabwe",
+            "phoneCountry": "263"
+        },
+        {
+            "id": 230,
+            "nameCountry": "Zambia",
+            "phoneCountry": "260"
+        }
+    ]
+}

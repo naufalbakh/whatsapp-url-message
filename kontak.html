@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WhatsApp Link Generator</title>
+  <link rel='icon' href='img/favicon-01.png' type='image/x-icon' />
+
+
+  <!-- CSS Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #075e54;
+      color: #f5f5f5;
+      padding: 50px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-label {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+
+    .form-control {
+      background-color: #f5f5f5;
+      border: none;
+    }
+
+    .btn-primary {
+      background-color: #25d366;
+      border-color: #25d366;
+    }
+
+    .btn-primary:active {
+      background-color: #dcf8c6;
+      border-color: #dcf8c6;
+    }
+
+    .btn-primary:hover {
+      background-color: #128c7e;
+      border-color: #128c7e;
+    }
+
+    .btn-outline-secondary {
+      color: #dcf8c6;
+      border-color: #dcf8c6;
+    }
+
+    .btn-outline-secondary:hover {
+      color: #fff;
+      background-color: #34b7f1;
+      border-color: #34b7f1;
+    }
+
+    .input-group-text {
+      background-color: #f5f5f5;
+      color: #075e54;
+      border: none;
+    }
+
+    #outputLink {
+      background-color: #f5f5f5;
+      border: none;
+      border-radius: 5px;
+      height: 70px;
+      resize: vertical;
+    }
+
+    #inputText {
+      height: 150px;
+      /* resize: vertical; */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="text-center fw-bold pb-4">WhatsApp Message Link Generator</h2>
+
+    <label for="countryCode" class="form-label">Nomor WhatsApp</label>
+    <div class="input-group mb-3 border-end ">
+      <select class="form-select input-group-text w-30" id="countryCode" for="inputPhone" onchange="updatePhoneNumber()">
+        <option selected disabled>Pilih Kode Negara</option>
+      </select>
+      <div id="countryCodeFeedback" class="invalid-feedback"></div>
+      <input type="text" id="inputPhone" class="form-control border-start w-60" placeholder="Contoh: 85123456789"
+        aria-label="Nomor" aria-describedby="basic-addon1" required>
+      <div id="inputPhoneFeedback" class="invalid-feedback"></div>
+    </div>
+
+    <label for="inputText1" class="form-label">Pesan</label>
+    <div class="input-group mb-3">
+      <textarea class="form-control border-start" id="inputText" aria-label="With textarea"
+        placeholder="Masukkan Pesan..." required></textarea>
+      <div id="inputTextFeedback" class="invalid-feedback"></div>
+    </div>
+
+    <div class="d-grid mb-4">
+      <button class="btn btn-primary" type="button" onclick="generateLink()">Generate Link</button>
+    </div>
+
+
+    <label for="outputLink" class="form-label">Output</label>
+    <div class="input-group mb-3">
+      <input type="text" id="outputLink" class="form-control py-3" aria-describedby="button-addon2" readonly>
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="copyLink()">Copy</button>
+    </div>
+
+    <script>
+      function generateLink() {
+        const countryCode = document.getElementById("countryCode").value;
+        const inputText = document.getElementById("inputText").value;
+        const inputPhone = document.getElementById("inputPhone").value;
+
+        // Menghapus kelas is-invalid dan valid-feedback pada field yang sudah validasi sebelumnya
+        document.getElementById("countryCode").classList.remove("is-invalid");
+        document.getElementById("inputPhone").classList.remove("is-invalid");
+        document.getElementById("inputText").classList.remove("is-invalid");
+        document.getElementById("countryCodeFeedback").textContent = "";
+        document.getElementById("inputPhoneFeedback").textContent = "";
+        document.getElementById("inputTextFeedback").textContent = "";
+
+        if (!countryCode || !inputPhone || !inputText) {
+          // Menambahkan kelas is-invalid dan menampilkan pesan validasi pada field yang tidak valid
+          if (!countryCode) {
+            document.getElementById("countryCode").classList.add("is-invalid");
+            document.getElementById("countryCodeFeedback").textContent = "Kode negara harus dipilih.";
+            alert("Kode negara harus dipilih!");
+          }
+          if (!inputPhone) {
+            document.getElementById("inputPhone").classList.add("is-invalid");
+            document.getElementById("inputPhoneFeedback").textContent = "Nomor WhatsApp harus diisi.";
+            alert("Nomor WhatsApp harus diisi!");
+          }
+          if (!inputText) {
+            document.getElementById("inputText").classList.add("is-invalid");
+            document.getElementById("inputTextFeedback").textContent = "Pesan harus diisi.";
+            alert("Pesan harus diisi!");
+          }
+          return;
+        }
+
+        const encodedText = encodeURIComponent(inputText);
+        const link = "https://wa.me/" + countryCode + inputPhone + "?text=" + encodedText;
+        document.getElementById("outputLink").value = link;
+      }
+
+      async function populateCountryCodes() {
+        try {
+          const response = await fetch('json/db.json'); // Mengambil data dari file JSON lokal
+          const data = await response.json();
+
+          const countryCodeSelect = document.getElementById('countryCode');
+
+          data.forEach((country) => {
+            const countryCode = country.phoneCountry; // Mendapatkan kode negara dari data JSON
+            const countryName = country.nameCountry; // Mendapatkan nama negara dari data JSON
+            const option = document.createElement('option');
+            option.value = countryCode;
+            option.textContent = `+${countryCode} (${countryName})`;
+            countryCodeSelect.appendChild(option);
+          });
+        } catch (error) {
+          console.error('Error:', error);
+        }
+      }
+
+      // Memanggil fungsi untuk mengisi data Kode Negara saat halaman dimuat
+      window.addEventListener('DOMContentLoaded', populateCountryCodes);
+
+      function copyLink() {
+        const outputLink = document.getElementById("outputLink");
+        outputLink.select();
+        outputLink.setSelectionRange(0, 99999); // For mobile devices
+        document.execCommand("copy");
+        alert("Link copied to clipboard!");
+      }
+    </script>
+</body>
+
+</html>
+
+
+
+<!-- https://wa.me/6281259840236?text=Halo%2C%20Aku%20adalah%20Developer%20SecureU!%0AAjukan%20Pertanyaan%20Dibawah%20Ini%3A%0A -->
